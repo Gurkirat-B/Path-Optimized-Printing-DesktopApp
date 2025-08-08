@@ -51,7 +51,6 @@ class HamiltonianZoningWithEdges:
                 return result
         return []
 
-
     def compute_fitness(self):
         crossings = 0
         for y in range(self.height):
@@ -84,7 +83,6 @@ class HamiltonianZoningWithEdges:
 
         plt.show()
 
-
     def save_path_to_file(self):
         import tkinter as tk
         from tkinter import filedialog
@@ -103,7 +101,6 @@ class HamiltonianZoningWithEdges:
                 f.write(f"{x1},{y1},{x2},{y2}\n")
 
         print(f"Path saved to {file_path}")
-
 
     def run_method_placeholder(self):
         # Top-right transpose
